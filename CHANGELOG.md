@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.2] - 2024-12-XX
+
+### Fixed
+- **Vercel Deployment**: Resolved PostCSS plugin error by moving `@tailwindcss/postcss` to dependencies
+- **Build Process**: Successfully builds on Vercel deployment platform
+- **Package Dependencies**: Fixed dependency placement for production builds
+
+### Changed
+- **Package Structure**: Moved `@tailwindcss/postcss` from devDependencies to dependencies
+- **Build Configuration**: Ensured PostCSS plugin is available during Vercel build process
+
 ## [0.1.1] - 2024-12-XX
 
 ### Fixed
@@ -45,3 +56,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Vercel Deployment**: ✅ Fixed and working
 - **Dependencies**: ✅ Resolved conflicts
 - **PostCSS**: ✅ Properly configured
+- **Production Build**: ✅ Vercel deployment ready
